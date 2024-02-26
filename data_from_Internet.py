@@ -12,6 +12,6 @@ class BoardGameFromInternet:
             self.game_JSON_BGG = json.load(game_BGG)
 
     def game_from_Tesera_and_BGG(self):
-        print(self.game_JSON_Tesera["game"]["title"], self.game_JSON_Tesera["game"]["n10Rating"])
+        print(self.game_JSON_Tesera["game"]["title"], self.game_JSON_Tesera["game"]["n10Rating"], end=' ')
         print(self.game_JSON_BGG["name"], self.game_JSON_BGG["averageRating"], self.game_JSON_BGG["bggRating"],
               self.game_JSON_BGG["rank"])
