@@ -1,5 +1,5 @@
-import data_from_Internet
+from data_from_Internet import BoardGameFromInternet
 
 game = input('Введите название игры с Тесера: ')
-game_from_Internet = data_from_Internet.BoardGameFromInternet(game)
-game_from_Internet.game_from_Tesera_and_BGG()
+game_from_Internet = BoardGameFromInternet(game)
+print(game_from_Internet.game_from_Tesera_and_BGG())
