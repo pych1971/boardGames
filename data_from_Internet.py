@@ -16,7 +16,6 @@ class BoardGameFromInternet:
             tree = xml.etree.ElementTree.parse(game_BGG_XML)
             root = tree.getroot()
             weight = root.findall('.//*[@ranks]')
-
             print(weight)
 
     def game_from_Tesera_and_BGG(self):
