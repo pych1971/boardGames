@@ -24,4 +24,4 @@ class BoardGameFromInternet:
             self.game_BGG_weight = float(self.tree_XML_BGG.find('.//*ratings/averageweight').get('value'))
 
     def game_from_Tesera_and_BGG(self):
-        return self.game_Tesera_title,  self.game_Tesera_rating, self.game_BGG_name, self.game_BGG_average_rating, self.game_BGG_geek_rating, self.game_BGG_rank, self.game_BGG_weight
+        return self.game_Tesera_title, self.game_Tesera_rating, self.game_BGG_name, self.game_BGG_average_rating, self.game_BGG_geek_rating, self.game_BGG_rank, self.game_BGG_weight
