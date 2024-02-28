@@ -19,5 +19,5 @@ class BoardGameFromInternet:
                 self.tree.find('.//item/name').get('value'),
                 float(self.tree.find('.//*ratings/average').get('value')),
                 float(self.tree.find('.//*ratings/bayesaverage').get('value')),
-                float(self.tree.find(".//*ratings/ranks/*[@type='subtype']").get('value')),
+                int(self.tree.find(".//*ratings/ranks/*[@type='subtype']").get('value')),
                 float(self.tree.find('.//*ratings/averageweight').get('value')))
