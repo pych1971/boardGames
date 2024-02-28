@@ -14,9 +14,10 @@ class BoardGameFromInternet:
             self.tree = xml.etree.ElementTree.parse(game_BGG_XML)
 
     def game_from_Tesera_and_BGG(self):
-        return self.game_JSON_Tesera["game"]["title"], self.game_JSON_Tesera["game"]["n10Rating"], self.tree.find(
-            './/item/name').get('value'), float(
-            self.tree.find('.//*ratings/average').get('value')), float(
-            self.tree.find('.//*ratings/bayesaverage').get('value')), float(
-            self.tree.find(".//*ratings/ranks/*[@type='subtype']").get('value')), float(
-            self.tree.find('.//*ratings/averageweight').get('value'))
+        return (self.game_JSON_Tesera["game"]["title"],
+                self.game_JSON_Tesera["game"]["n10Rating"],
+                self.tree.find('.//item/name').get('value'),
+                float(self.tree.find('.//*ratings/average').get('value')),
+                float(self.tree.find('.//*ratings/bayesaverage').get('value')),
+                float(self.tree.find(".//*ratings/ranks/*[@type='subtype']").get('value')),
+                float(self.tree.find('.//*ratings/averageweight').get('value')))
