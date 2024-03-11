@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="01b7af4f-300a-4662-9d33-2eadd6f48719" name="Changes" comment="2024-03-01-09-54">
+    <list default="true" id="01b7af4f-300a-4662-9d33-2eadd6f48719" name="Changes" comment="2024-03-11-14-18">
+      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/base.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/token.json" beforeDir="false" afterPath="$PROJECT_DIR$/token.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_from_Internet.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_from_Internet.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +54,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Oleg/YandexDisk/Programming/Python/PycharmProjects/boardGames&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Oleg/YandexDisk/Programming/Django/board_games&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
   }
 }</component>
@@ -338,7 +339,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709268875424</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="2024-03-11-14-18">
+      <option name="closed" value="true" />
+      <created>1710148718479</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1710148718479</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -377,6 +386,7 @@
     <MESSAGE value="2024-02-28-21-17" />
     <MESSAGE value="2024-02-28-21-18" />
     <MESSAGE value="2024-03-01-09-54" />
-    <option name="LAST_COMMIT_MESSAGE" value="2024-03-01-09-54" />
+    <MESSAGE value="2024-03-11-14-18" />
+    <option name="LAST_COMMIT_MESSAGE" value="2024-03-11-14-18" />
   </component>
 </project>
