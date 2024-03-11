@@ -4,19 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="01b7af4f-300a-4662-9d33-2eadd6f48719" name="Changes" comment="2024-02-28-21-18">
-      <change afterPath="$PROJECT_DIR$/.idea/boardGames.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/Oleg.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace (2).xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/credentials.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/token.json" afterDir="false" />
+    <list default="true" id="01b7af4f-300a-4662-9d33-2eadd6f48719" name="Changes" comment="2024-03-01-09-54">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/token.json" beforeDir="false" afterPath="$PROJECT_DIR$/token.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +39,7 @@
   &quot;keyToString&quot;: {
     &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Python.aaa.executor&quot;: &quot;Run&quot;,
     &quot;Python.base.executor&quot;: &quot;Run&quot;,
     &quot;Python.boardGames.executor&quot;: &quot;Run&quot;,
     &quot;Python.board_games.executor&quot;: &quot;Run&quot;,
@@ -55,6 +47,7 @@
     &quot;Python.data_from_Internet.executor&quot;: &quot;Debug&quot;,
     &quot;Python.interface.executor&quot;: &quot;Run&quot;,
     &quot;Python.quickstart.executor&quot;: &quot;Run&quot;,
+    &quot;Python.sheets_create (1).executor&quot;: &quot;Run&quot;,
     &quot;Python.sheets_create.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
@@ -67,7 +60,7 @@
   <component name="Push.Settings">
     <option name="SHOW_DETAILS_PANEL" value="false" />
   </component>
-  <component name="RunManager" selected="Python.quickstart">
+  <component name="RunManager">
     <configuration name="quickstart" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="boardGames" />
       <option name="ENV_FILES" value="" />
@@ -337,7 +330,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709137067922</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="2024-03-01-09-54">
+      <option name="closed" value="true" />
+      <created>1709268875424</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1709268875424</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -375,6 +376,7 @@
     <MESSAGE value="2024-02-28-20-55" />
     <MESSAGE value="2024-02-28-21-17" />
     <MESSAGE value="2024-02-28-21-18" />
-    <option name="LAST_COMMIT_MESSAGE" value="2024-02-28-21-18" />
+    <MESSAGE value="2024-03-01-09-54" />
+    <option name="LAST_COMMIT_MESSAGE" value="2024-03-01-09-54" />
   </component>
 </project>
