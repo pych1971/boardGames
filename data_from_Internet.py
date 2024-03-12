@@ -1,6 +1,8 @@
 import json
 import xml.etree.ElementTree
 import urllib.request
+from time import sleep
+from random import randint
 
 
 class BoardGameFromInternet:
@@ -28,7 +30,7 @@ class BoardGameFromInternet:
                 self.bgg_weight = float(self.game_bgg.find('.//*ratings/averageweight').get('value'))
         else:
             self.bgg_id = 0
-            self.bgg_name = ''
+            self.bgg_name = 'Нет данных с сайта BGG'
             self.bgg_average_rating = 0.0
             self.bgg_bayes_average_rating = 0.0
             self.bgg_rank = 0
@@ -53,3 +55,6 @@ class UserFromInternet:
                 self.next_page = json.load(user_tesera_json)
                 for game in self.next_page:
                     print(BoardGameFromInternet(game['game']['teseraId']).game_from_tesera_and_bgg())
+                    sleep_time = randint(1, 20)
+                    print(f'Спим {sleep_time} секунд')
+                    sleep(sleep_time)
