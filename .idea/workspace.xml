@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="01b7af4f-300a-4662-9d33-2eadd6f48719" name="Changes" comment="2024-03-12-12-21">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_from_Internet.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_from_Internet.py" afterDir="false" />
-    </list>
+    <list default="true" id="01b7af4f-300a-4662-9d33-2eadd6f48719" name="Changes" comment="2024-03-12-12-52" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -408,7 +405,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710228117484</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="2024-03-12-12-52">
+      <option name="closed" value="true" />
+      <created>1710229955222</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1710229955222</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -427,7 +432,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/.." />
     </ignored-roots>
-    <MESSAGE value="2014-01-23-18-37" />
     <MESSAGE value="2024-02-26-20-40" />
     <MESSAGE value="2024-02-26-20-51" />
     <MESSAGE value="2024-02-26-21-09" />
@@ -452,6 +456,7 @@
     <MESSAGE value="2024-03-12-11-37" />
     <MESSAGE value="2024-03-12-12-15" />
     <MESSAGE value="2024-03-12-12-21" />
-    <option name="LAST_COMMIT_MESSAGE" value="2024-03-12-12-21" />
+    <MESSAGE value="2024-03-12-12-52" />
+    <option name="LAST_COMMIT_MESSAGE" value="2024-03-12-12-52" />
   </component>
 </project>
