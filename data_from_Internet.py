@@ -5,7 +5,6 @@ import urllib.request
 
 class BoardGameFromInternet:
     def __init__(self, tesera_id):
-
         self.tesera_id = tesera_id
         with urllib.request.urlopen(f"https://api.tesera.ru/games/{self.tesera_id}") as game_tesera_json:
             self.game_tesera = json.load(game_tesera_json)
