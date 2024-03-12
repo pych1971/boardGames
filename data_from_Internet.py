@@ -13,16 +13,26 @@ class BoardGameFromInternet:
             self.tesera_name = self.game_tesera["game"]["title"]
             self.tesera_rating_user = self.game_tesera["game"]["ratingUser"]
             self.tesera_n10_rating = self.game_tesera["game"]["n10Rating"]
+        if self.bgg_id != 0:
+            with urllib.request.urlopen(
+                    f"https://boardgamegeek.com/xmlapi2/thing?id={self.bgg_id}&stats=1") as game_bgg_xml:
+                self.game_bgg = xml.etree.ElementTree.parse(game_bgg_xml)
 
-        with urllib.request.urlopen(
-                f"https://boardgamegeek.com/xmlapi2/thing?id={self.bgg_id}&stats=1") as game_bgg_xml:
-            self.game_bgg = xml.etree.ElementTree.parse(game_bgg_xml)
-
-            self.bgg_name = self.game_bgg.find('.//item/*[@type="primary"]').get('value')
-            self.bgg_average_rating = float(self.game_bgg.find('.//*ratings/average').get('value'))
-            self.bgg_bayes_average_rating = float(self.game_bgg.find('.//*ratings/bayesaverage').get('value'))
-            self.bgg_rank = int(self.game_bgg.find(".//*ratings/ranks/*[@type='subtype']").get('value'))
-            self.bgg_weight = float(self.game_bgg.find('.//*ratings/averageweight').get('value'))
+                self.bgg_name = self.game_bgg.find('.//item/*[@type="primary"]').get('value')
+                self.bgg_average_rating = float(self.game_bgg.find('.//*ratings/average').get('value'))
+                self.bgg_bayes_average_rating = float(self.game_bgg.find('.//*ratings/bayesaverage').get('value'))
+                if self.game_bgg.find(".//*ratings/ranks/*[@type='subtype']").get('value') != "Not Ranked":
+                    self.bgg_rank = int(self.game_bgg.find(".//*ratings/ranks/*[@type='subtype']").get('value'))
+                else:
+                    self.bgg_rank = 0
+                self.bgg_weight = float(self.game_bgg.find('.//*ratings/averageweight').get('value'))
+        else:
+            self.bgg_id = 0
+            self.bgg_name = ''
+            self.bgg_average_rating = 0.0
+            self.bgg_bayes_average_rating = 0.0
+            self.bgg_rank = 0
+            self.bgg_weight = 0
 
     def game_from_tesera_and_bgg(self):
         return (
