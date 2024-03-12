@@ -55,6 +55,4 @@ class UserFromInternet:
                 self.next_page = json.load(user_tesera_json)
                 for game in self.next_page:
                     print(BoardGameFromInternet(game['game']['teseraId']).game_from_tesera_and_bgg())
-                    sleep_time = randint(1, 20)
-                    print(f'Спим {sleep_time} секунд')
-                    sleep(sleep_time)
+                    sleep(randint(1, 20))
