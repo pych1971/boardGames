@@ -1,6 +1,6 @@
 from data_from_Internet import BoardGameFromInternet
 
-for game in ('great-western-trail-second-edition', 'great-western-trail-argentina', 'great-western-trail-new-zealand'):
-    # game = input('Введите название игры с Тесера: ')
-    game_from_Internet = BoardGameFromInternet(game)
-    print(game_from_Internet.game_from_Tesera_and_BGG())
+user_tesera = 'pych1971'
+
+game_from_internet = BoardGameFromInternet(2199596)
+print(game_from_internet.game_from_tesera_and_bgg())
